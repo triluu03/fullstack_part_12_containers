@@ -1,0 +1,41 @@
+Script started on Wed Oct 26 20:47:08 2022
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications[0m[27m[24m[J(base) triluu@Luus-MacBook-Air part12-containers-applications % [K[?2004hddocker run container             container run hellow=  = -woelr   rld[?2004l
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (arm64v8)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications[0m[27m[24m[J(base) triluu@Luus-MacBook-Air part12-containers-applications % [K[?2004hmmkdir /usr/src/app[?2004l
+mkdir: /usr/src: No such file or directory
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications[0m[27m[24m[J(base) triluu@Luus-MacBook-Air part12-containers-applications % [K[?2004hmmkdir us  usr[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications[0m[27m[24m[J(base) triluu@Luus-MacBook-Air part12-containers-applications % [K[?2004hccd usr[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications/usr[0m[27m[24m[J(base) triluu@Luus-MacBook-Air usr % [K[?2004hmmkdir src[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications/usr[0m[27m[24m[J(base) triluu@Luus-MacBook-Air usr % [K[?2004hccd src[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications/usr/src[0m[27m[24m[J(base) triluu@Luus-MacBook-Air src % [K[?2004hmmkdir app[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications/usr/src[0m[27m[24m[J(base) triluu@Luus-MacBook-Air src % [K[?2004hccd app[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications/usr/src/app[0m[27m[24m[J(base) triluu@Luus-MacBook-Air app % [K[?2004hvvim  v  nnano   n  ttouch index.js[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                    ]7;file://Luus-MacBook-Air.local/Users/triluu/Documents/University%20Documents/part12-containers-applications/usr/src/app[0m[27m[24m[J(base) triluu@Luus-MacBook-Air app % [K[?2004heexit[?2004l
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Oct 26 20:49:49 2022
