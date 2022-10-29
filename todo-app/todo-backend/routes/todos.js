@@ -16,7 +16,7 @@ router.post('/', async (req, res) => {
     done: false,
   });
   const added_todos = await getAsync('added_todos');
-  setAsync('added_todos', added_todos === null ? 1 : added_todos + 1);
+  setAsync('added_todos', added_todos === null ? 1 : Number(added_todos) + 1);
   res.send(todo);
 });
 
