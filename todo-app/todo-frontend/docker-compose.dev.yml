@@ -1,0 +1,13 @@
+services:
+ app:
+  image: exercise_12.15
+  build:
+   context: .
+   dockerfile: dev.Dockerfile
+  ports:
+   - 3000:3000
+  volumes:
+   - ./:/usr/src/app
+  container_name: exercise_12.15
+
+
