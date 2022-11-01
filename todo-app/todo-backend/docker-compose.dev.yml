@@ -1,6 +1,22 @@
 version: '3.8'
 
 services:
+ server:
+  image: exercise_12.16
+  build:
+   context: .
+   dockerfile: dev.Dockerfile 
+  ports:
+   - 3000:3000
+  volumes:
+   - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+   - ./mongo_data:/data/db 
+   - ./redis_data:/data 
+  environment:
+   - REDIS_URL=redis://redis:6379
+   - MONGO_URL=mongodb://mongo:27017
+  container_name: exercise_12.16
+
  mongo:
   image: mongo
   ports:
@@ -11,12 +27,13 @@ services:
    MONGO_INITDB_DATABASE: the_database
   volumes:
    - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
-   - ./mongo_data:/data/db 
-
- redis:
+   - ./mongo_data:/data/db
+  
+ redis: 
   image: redis
   ports: 
    - 6379:6379
-  command: ['redis-server', '--appendonly', 'yes']
   volumes:
-   - ./redis_data:/data 
+   - ./redis_data:/data
+  command: ["redis-server", "--appendonly", "yes"]
+   
